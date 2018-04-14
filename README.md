@@ -44,8 +44,11 @@ You can add your own arguments.
 │   ├── base_model.py - abstract base class for models.
 │   └── base_trainer.py - abstract base class for trainers
 │
+├── config/ - configuration for gpu etc.
+│
 ├── data_loader/ - anything about data loading goes here
-│   └── data_loader.py
+│   ├── data_loader.py
+│   └── logs/ - directory for tensorboard logs
 │
 ├── datasets/ - default dataset folder
 │
