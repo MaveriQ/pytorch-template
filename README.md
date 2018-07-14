@@ -62,6 +62,8 @@ You can add your own arguments.
 │   ├── metric.py
 │   └── model.py
 │
+├── notebooks/ - scripts/notebooks for replicating experiment results
+│ 
 ├── trainer/ - trainers for your project
 │   └── trainer.py
 │
